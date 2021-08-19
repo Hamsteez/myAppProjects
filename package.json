@@ -1,0 +1,14 @@
+{
+  "name": "myappprojects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gitAdd": "git add .",
+    "gitCommit": "git commit -m 'auto pushed'",
+    "gitPush": "git push -u origin main",
+    "git": "npm run gitAdd && npm run gitCommit && npm run gitPush"
+  },
+  "author": "",
+  "license": "ISC"
+}
